@@ -10,9 +10,6 @@ random_output_device := class(creative_device):
     Trigger_StartRNG : trigger_device = trigger_device{}
 
     @editable
-    Trigger_Delay_LevelSelect : trigger_device = trigger_device{}
-
-    @editable
     Triggers : []trigger_device = array{}
 
     var LastSelection : int = -1
